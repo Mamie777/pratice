@@ -1,0 +1,64 @@
+:root{
+    --janet-white : white;
+    --daneil-black : black;
+}
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: content-box;
+}
+
+header{
+    background-color : green;
+    padding : 24px;
+}
+
+.container, section{
+    width : 90%;
+    margin : 0 auto;
+}
+section{
+    padding : 24px;
+}
+ul{
+    list-style: none;
+    font-size : 2rem;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: var(--janet-white); */
+   
+}
+
+
+
+.janet-bio{
+    width : 100%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.janet-bio img{
+   max-width: 250px;
+    border-radius: 100%;
+
+
+   
+}
+
+
+a{
+    color : var(--janet-white);
+    text-decoration: none;
+    
+
+}
+
+ul li a:hover{
+    color : gray;
+
+
+}
+
